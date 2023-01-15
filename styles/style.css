@@ -1,0 +1,242 @@
+/* common style and utilities */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header top and navbar style */
+header{
+    background-color: #FF900E1A;
+}
+.top-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 230px;
+
+}
+.header-title{
+    font-size: 45px;    
+    color: #131313;
+}
+.navbar ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding-left: 20px;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header banner style */
+.banner-item-container{
+    padding: 30px 230px ;
+    text-align: center;
+}
+.banner-title{
+    font-size: 64px;
+    color: #131313;
+    margin: 0px;
+}
+.banner-sub-title{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.primary-btn button{
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+}
+.images img{
+    width: 891px;
+    align-content: center;
+    border-radius: 8px;
+    margin-bottom : 35px; 
+}
+
+/* header style end! */
+
+/* ---------------------
+main style start 
+------------------------*/
+/* section feature style*/
+.features-container{
+    padding: 70px 200px;
+    display: flex;
+    gap: 70px;
+}
+.photos{
+     
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+}
+.photo img{
+    width: 250px;   
+}
+.feature-info{
+    padding-top: 50px;
+}
+.feature-title {
+    font-size: 45px;
+    color: #727272;
+}
+#ofour{
+    color: #131313;
+}
+#features{
+    color: #FF900E;
+}
+.feature-sub-title{
+    color: #727272;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/* features you will love and enjoy section style */
+.feature-enjoy-container{
+    padding: 50px 130px;
+    display: flex;
+    gap: 130px;
+}
+.feature-enjoy-title{
+    font-size: 45px;
+    color: #131313;
+    padding-left: 30px;
+    margin-right: 150px;
+    border-left: 5px solid #FF900E;
+}
+.feature-enjoy-sub-title{
+    font-size: 16px;
+    color: #727272;
+    margin-right: 20px;
+}
+.feature-details-box{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+.feature-details-box h3{
+    font-size: 20px;
+    color: #131313;
+  
+}
+.feature-details-box p{
+    font-size: 16px;
+    color: #727272;
+    margin-right: 30px;
+}
+.images-and-btn{
+    margin-top: 100px;
+}
+.images-and-btn .image img{
+    width: 400px;
+}
+.second-btn{
+    position: relative;
+    top: -80px;
+    left: -85px;
+    width: 190px;
+    height: 130px;
+
+}
+/* features you will love and enjoy section style ended! */
+
+/* fact section style start */
+.fact-container{
+    padding: 0px 130px;
+}
+.fact-title{
+    font-size :45px;
+    color: #131313;
+}
+.fact-sub-title{
+    font-size: 16px;
+    margin-right: 550px;
+    color:#727272;
+    margin-bottom: 70px;
+
+}
+.fact-boxs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-left: 27px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fact-box{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.fact-box .score{
+    font-size: 45px;
+    margin: 10px;
+    font-weight: 700;
+    color: #131313;
+}
+.fact-box .award-name{
+    font-size: 16px;
+    color: #727272;
+}
+
+/* fact section style end*/
+/* sponser section style start */
+.sponser-info{
+    text-align: center;
+    margin-top: 90px;
+}
+.sponser-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponser-sub-title{
+    font-size: 16px;
+    color: #727272;
+    margin: 10px 400px;
+}
+.sponser-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 150px;
+    margin-bottom: 100px;
+}
+.sponser-logo img{
+    width: 120px;
+    filter: grayscale(100%);
+}
+
+/* sponser section end */
+
+/* footer section start */
+
+.footer-container{
+    background-color: #FFF4E7;
+    padding: 15px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.footer-info{
+    text-align: center;
+    font-size: 14px;
+    color: #424242;
+    opacity: .75;
+}
